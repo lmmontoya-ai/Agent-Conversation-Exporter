@@ -1,0 +1,1415 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AppShell responsive snapshots > renders brutalist layout at width 375 1`] = `
+<div
+  class="flex h-screen flex-col bg-[var(--bg)] text-[var(--fg)]"
+>
+  <main
+    class="min-h-0 flex-1 p-2"
+  >
+    <div
+      class="h-full"
+    >
+      <div
+        class="flex h-full flex-col overflow-hidden rounded-[var(--radius-lg)] bg-[var(--bg-raised)]"
+      >
+        <div
+          class="flex flex-shrink-0 items-center gap-3 border-b border-[var(--border)] px-4 py-2"
+        >
+          <div
+            class="min-w-0 flex-1"
+          >
+            <div
+              class="flex items-center gap-2"
+              style=""
+            >
+              <span
+                class="truncate text-[13px] font-medium text-[var(--fg)]"
+              >
+                Analyze TTT-E2E paper and prepare report
+              </span>
+              <span
+                class="flex-shrink-0 text-[13px] text-[var(--fg-subtle)]"
+              >
+                Reproducing-TTT-E2E
+              </span>
+            </div>
+          </div>
+          <button
+            class="flex items-center gap-1.5 rounded-lg border px-2.5 py-1 transition-colors duration-100 active:scale-[0.98] border-[var(--border)] bg-[var(--bg-surface)] text-[var(--fg-muted)] hover:border-[var(--border-hover)] hover:text-[var(--fg)]"
+          >
+            <span
+              class="text-[13px] font-medium"
+            >
+              Raw
+            </span>
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-down h-3 w-3 text-[var(--fg-subtle)] transition-transform duration-100"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m6 9 6 6 6-6"
+              />
+            </svg>
+          </button>
+          <button
+            class="flex items-center gap-1.5 rounded-lg border px-2.5 py-1 transition-colors duration-100 active:scale-[0.98] border-[var(--border)] bg-[var(--bg-surface)] text-[var(--fg-muted)] hover:border-[var(--border-hover)] hover:text-[var(--fg)]"
+          >
+            <span
+              class="text-[13px] font-medium"
+            >
+              Clean
+            </span>
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-down h-3 w-3 text-[var(--fg-subtle)] transition-transform duration-100"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m6 9 6 6 6-6"
+              />
+            </svg>
+          </button>
+          <button
+            class="flex items-center rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-2 py-1 text-[var(--fg-muted)] transition-colors duration-100 hover:border-[var(--border-hover)] hover:text-[var(--fg)] active:scale-[0.95] disabled:cursor-not-allowed disabled:opacity-40"
+            title="Copy to clipboard"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-copy h-3.5 w-3.5"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="14"
+                rx="2"
+                ry="2"
+                width="14"
+                x="8"
+                y="8"
+              />
+              <path
+                d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+              />
+            </svg>
+          </button>
+          <button
+            class="flex items-center gap-1.5 rounded-lg bg-[var(--accent)] px-2.5 py-1 text-[var(--accent-fg)] transition-colors duration-100 hover:bg-[var(--accent-hover)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-share h-3.5 w-3.5"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2v13"
+              />
+              <path
+                d="m16 6-4-4-4 4"
+              />
+              <path
+                d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+              />
+            </svg>
+            <span
+              class="text-[13px] font-medium"
+            >
+              Export
+            </span>
+          </button>
+          <div
+            class="flex items-center gap-0.5"
+          >
+            <button
+              class="rounded-md p-1 text-[var(--fg-subtle)] transition-colors hover:bg-[var(--bg-hover)] hover:text-[var(--fg)] active:scale-[0.95]"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-menu h-4 w-4"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 5h16"
+                />
+                <path
+                  d="M4 12h16"
+                />
+                <path
+                  d="M4 19h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex-1 overflow-auto px-5 py-4"
+        >
+          <pre
+            class="whitespace-pre-wrap break-words font-mono text-[13px] leading-relaxed text-[var(--fg-muted)]"
+          >
+            # Mock markdown
+          </pre>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div
+    class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[var(--bg)]"
+  >
+    <div
+      class="pointer-events-none absolute inset-0"
+      style="background: radial-gradient(60% 40% at 50% -5%, rgba(110, 231, 183, 0.06) 0%, transparent 70%);"
+    />
+    <div
+      class="relative w-full max-w-[440px] px-6"
+    >
+      <div
+        style="opacity: 0.025416342468815856; transform: translateX(23.39000778074842px);"
+      >
+        <div
+          class="flex flex-col items-center text-center"
+        >
+          <div
+            class="mb-2 font-[family-name:var(--font-heading)] text-[72px] font-bold leading-none tracking-tighter text-[var(--fg)]"
+            style="opacity: 0.012399566141539253; transform: translateY(11.851205206301529px);"
+          >
+            ACE
+          </div>
+          <div
+            class="mb-8 font-[family-name:var(--font-mono)] text-[11px] uppercase tracking-[0.2em] text-[var(--fg-subtle)]"
+            style="opacity: 0;"
+          >
+            Agent Conversation Exporter
+          </div>
+          <p
+            class="mb-10 max-w-[320px] text-[14px] leading-relaxed text-[var(--fg-muted)]"
+            style="opacity: 0; transform: translateY(8px);"
+          >
+            Export your Codex CLI and Desktop conversations as clean, structured Markdown. Ready to share, archive, or publish.
+          </p>
+          <button
+            class="flex items-center gap-2 rounded-xl bg-[var(--accent)] px-6 py-2.5 text-[var(--accent-fg)] transition-colors hover:bg-[var(--accent-hover)] active:scale-[0.98]"
+            style="opacity: 0; transform: translateY(6px);"
+          >
+            <span
+              class="text-[13px] font-semibold"
+            >
+              Get started
+            </span>
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right h-3.5 w-3.5"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="absolute bottom-10"
+      style="opacity: 0;"
+    >
+      <div
+        class="flex items-center gap-2"
+      >
+        <div
+          class="h-1.5 rounded-full transition-colors duration-300 bg-[var(--accent)]"
+          style="width: 0.4218041352578439px;"
+        />
+        <div
+          class="h-1.5 rounded-full transition-colors duration-300 bg-[var(--border-hover)]"
+          style="width: 0.12654124057735316px;"
+        />
+        <div
+          class="h-1.5 rounded-full transition-colors duration-300 bg-[var(--border-hover)]"
+          style="width: 0.12654124057735316px;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AppShell responsive snapshots > renders brutalist layout at width 768 1`] = `
+<div
+  class="flex h-screen flex-col bg-[var(--bg)] text-[var(--fg)]"
+>
+  <main
+    class="min-h-0 flex-1 p-2"
+  >
+    <div
+      class="h-full"
+    >
+      <div
+        class="flex h-full flex-col overflow-hidden rounded-[var(--radius-lg)] bg-[var(--bg-raised)]"
+      >
+        <div
+          class="flex flex-shrink-0 items-center gap-3 border-b border-[var(--border)] px-4 py-2"
+        >
+          <div
+            class="min-w-0 flex-1"
+          >
+            <div
+              class="flex items-center gap-2"
+              style=""
+            >
+              <span
+                class="truncate text-[13px] font-medium text-[var(--fg)]"
+              >
+                Analyze TTT-E2E paper and prepare report
+              </span>
+              <span
+                class="flex-shrink-0 text-[13px] text-[var(--fg-subtle)]"
+              >
+                Reproducing-TTT-E2E
+              </span>
+            </div>
+          </div>
+          <button
+            class="flex items-center gap-1.5 rounded-lg border px-2.5 py-1 transition-colors duration-100 active:scale-[0.98] border-[var(--border)] bg-[var(--bg-surface)] text-[var(--fg-muted)] hover:border-[var(--border-hover)] hover:text-[var(--fg)]"
+          >
+            <span
+              class="text-[13px] font-medium"
+            >
+              Raw
+            </span>
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-down h-3 w-3 text-[var(--fg-subtle)] transition-transform duration-100"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m6 9 6 6 6-6"
+              />
+            </svg>
+          </button>
+          <button
+            class="flex items-center gap-1.5 rounded-lg border px-2.5 py-1 transition-colors duration-100 active:scale-[0.98] border-[var(--border)] bg-[var(--bg-surface)] text-[var(--fg-muted)] hover:border-[var(--border-hover)] hover:text-[var(--fg)]"
+          >
+            <span
+              class="text-[13px] font-medium"
+            >
+              Clean
+            </span>
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-chevron-down h-3 w-3 text-[var(--fg-subtle)] transition-transform duration-100"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m6 9 6 6 6-6"
+              />
+            </svg>
+          </button>
+          <button
+            class="flex items-center rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-2 py-1 text-[var(--fg-muted)] transition-colors duration-100 hover:border-[var(--border-hover)] hover:text-[var(--fg)] active:scale-[0.95] disabled:cursor-not-allowed disabled:opacity-40"
+            title="Copy to clipboard"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-copy h-3.5 w-3.5"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="14"
+                rx="2"
+                ry="2"
+                width="14"
+                x="8"
+                y="8"
+              />
+              <path
+                d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+              />
+            </svg>
+          </button>
+          <button
+            class="flex items-center gap-1.5 rounded-lg bg-[var(--accent)] px-2.5 py-1 text-[var(--accent-fg)] transition-colors duration-100 hover:bg-[var(--accent-hover)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-share h-3.5 w-3.5"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2v13"
+              />
+              <path
+                d="m16 6-4-4-4 4"
+              />
+              <path
+                d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+              />
+            </svg>
+            <span
+              class="text-[13px] font-medium"
+            >
+              Export
+            </span>
+          </button>
+          <div
+            class="flex items-center gap-0.5"
+          >
+            <button
+              class="rounded-md p-1 text-[var(--fg-subtle)] transition-colors hover:bg-[var(--bg-hover)] hover:text-[var(--fg)] active:scale-[0.95]"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-menu h-4 w-4"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 5h16"
+                />
+                <path
+                  d="M4 12h16"
+                />
+                <path
+                  d="M4 19h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex-1 overflow-auto px-5 py-4"
+        >
+          <pre
+            class="whitespace-pre-wrap break-words font-mono text-[13px] leading-relaxed text-[var(--fg-muted)]"
+          >
+            # Mock markdown
+          </pre>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div
+    class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[var(--bg)]"
+  >
+    <div
+      class="pointer-events-none absolute inset-0"
+      style="background: radial-gradient(60% 40% at 50% -5%, rgba(110, 231, 183, 0.06) 0%, transparent 70%);"
+    />
+    <div
+      class="relative w-full max-w-[440px] px-6"
+    >
+      <div
+        style="opacity: 0; transform: translateX(24px);"
+      >
+        <div
+          class="flex flex-col items-center text-center"
+        >
+          <div
+            class="mb-2 font-[family-name:var(--font-heading)] text-[72px] font-bold leading-none tracking-tighter text-[var(--fg)]"
+            style="opacity: 0; transform: translateY(12px);"
+          >
+            ACE
+          </div>
+          <div
+            class="mb-8 font-[family-name:var(--font-mono)] text-[11px] uppercase tracking-[0.2em] text-[var(--fg-subtle)]"
+            style="opacity: 0;"
+          >
+            Agent Conversation Exporter
+          </div>
+          <p
+            class="mb-10 max-w-[320px] text-[14px] leading-relaxed text-[var(--fg-muted)]"
+            style="opacity: 0; transform: translateY(8px);"
+          >
+            Export your Codex CLI and Desktop conversations as clean, structured Markdown. Ready to share, archive, or publish.
+          </p>
+          <button
+            class="flex items-center gap-2 rounded-xl bg-[var(--accent)] px-6 py-2.5 text-[var(--accent-fg)] transition-colors hover:bg-[var(--accent-hover)] active:scale-[0.98]"
+            style="opacity: 0; transform: translateY(6px);"
+          >
+            <span
+              class="text-[13px] font-semibold"
+            >
+              Get started
+            </span>
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right h-3.5 w-3.5"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="absolute bottom-10"
+      style="opacity: 0;"
+    >
+      <div
+        class="flex items-center gap-2"
+      >
+        <div
+          class="h-1.5 rounded-full transition-colors duration-300 bg-[var(--accent)]"
+        />
+        <div
+          class="h-1.5 rounded-full transition-colors duration-300 bg-[var(--border-hover)]"
+        />
+        <div
+          class="h-1.5 rounded-full transition-colors duration-300 bg-[var(--border-hover)]"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AppShell responsive snapshots > renders brutalist layout at width 1024 1`] = `
+<div
+  class="flex h-screen flex-col bg-[var(--bg)] text-[var(--fg)]"
+>
+  <main
+    class="min-h-0 flex-1 p-2"
+  >
+    <div
+      class="flex h-full"
+    >
+      <div
+        class="h-full w-[300px] min-w-[260px]"
+      >
+        <div
+          class="flex h-full flex-col bg-[var(--bg-raised)]"
+        >
+          <div
+            class="flex flex-shrink-0 items-center gap-1 px-3 py-2"
+          >
+            <div
+              class="relative min-w-0 flex-1"
+            >
+              <span
+                class="block text-[13px] text-[var(--fg-muted)] transition-opacity duration-150 opacity-100"
+              >
+                Threads
+              </span>
+              <div
+                class="absolute inset-y-0 right-0 flex items-center overflow-hidden transition-[width] duration-200 ease-out w-0"
+              >
+                <input
+                  class="h-6 w-full min-w-0 bg-transparent text-[13px] text-[var(--fg)] placeholder-[var(--fg-subtle)] outline-none"
+                  placeholder="Search..."
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-shrink-0 items-center gap-0.5"
+            >
+              <button
+                class="rounded-md p-1 transition-colors active:scale-[0.95] text-[var(--fg-subtle)] hover:bg-[var(--bg-hover)] hover:text-[var(--fg)]"
+                title="Search sessions"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-search h-3.5 w-3.5"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m21 21-4.34-4.34"
+                  />
+                  <circle
+                    cx="11"
+                    cy="11"
+                    r="8"
+                  />
+                </svg>
+              </button>
+              <button
+                class="rounded-md p-1 transition-colors active:scale-[0.95] text-[var(--fg-subtle)] hover:bg-[var(--bg-hover)] hover:text-[var(--fg)]"
+                title="Select sessions"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-list-checks h-3.5 w-3.5"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13 5h8"
+                  />
+                  <path
+                    d="M13 12h8"
+                  />
+                  <path
+                    d="M13 19h8"
+                  />
+                  <path
+                    d="m3 17 2 2 4-4"
+                  />
+                  <path
+                    d="m3 7 2 2 4-4"
+                  />
+                </svg>
+              </button>
+              <button
+                class="relative rounded-md p-1 transition-colors duration-100 active:scale-[0.95] text-[var(--fg-subtle)] hover:bg-[var(--bg-hover)] hover:text-[var(--fg)]"
+                title="Filter & actions"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-sliders-horizontal h-3.5 w-3.5"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 5H3"
+                  />
+                  <path
+                    d="M12 19H3"
+                  />
+                  <path
+                    d="M14 3v4"
+                  />
+                  <path
+                    d="M16 17v4"
+                  />
+                  <path
+                    d="M21 12h-9"
+                  />
+                  <path
+                    d="M21 19h-5"
+                  />
+                  <path
+                    d="M21 5h-7"
+                  />
+                  <path
+                    d="M8 10v4"
+                  />
+                  <path
+                    d="M8 12H3"
+                  />
+                </svg>
+                <span
+                  class="absolute -right-0.5 -top-0.5 h-[5px] w-[5px] rounded-full bg-[var(--accent)]"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="min-h-0 flex-1"
+          >
+            <div
+              class="h-full overflow-auto"
+              style=""
+            >
+              <div
+                class="relative"
+                style="height: 0px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-orientation="vertical"
+        class="group flex w-2 cursor-col-resize items-center justify-center"
+        role="separator"
+      >
+        <div
+          class="h-full w-px bg-[var(--border)] transition-colors duration-150 group-hover:w-0.5 group-hover:bg-[var(--accent)]"
+        />
+      </div>
+      <div
+        class="min-w-0 flex-1"
+      >
+        <div
+          class="flex h-full flex-col overflow-hidden rounded-[var(--radius-lg)] bg-[var(--bg-raised)]"
+        >
+          <div
+            class="flex flex-shrink-0 items-center gap-3 border-b border-[var(--border)] px-4 py-2"
+          >
+            <div
+              class="min-w-0 flex-1"
+            >
+              <div
+                class="flex items-center gap-2"
+                style=""
+              >
+                <span
+                  class="truncate text-[13px] font-medium text-[var(--fg)]"
+                >
+                  Analyze TTT-E2E paper and prepare report
+                </span>
+                <span
+                  class="flex-shrink-0 text-[13px] text-[var(--fg-subtle)]"
+                >
+                  Reproducing-TTT-E2E
+                </span>
+              </div>
+            </div>
+            <button
+              class="flex items-center gap-1.5 rounded-lg border px-2.5 py-1 transition-colors duration-100 active:scale-[0.98] border-[var(--border)] bg-[var(--bg-surface)] text-[var(--fg-muted)] hover:border-[var(--border-hover)] hover:text-[var(--fg)]"
+            >
+              <span
+                class="text-[13px] font-medium"
+              >
+                Raw
+              </span>
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down h-3 w-3 text-[var(--fg-subtle)] transition-transform duration-100"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </button>
+            <button
+              class="flex items-center gap-1.5 rounded-lg border px-2.5 py-1 transition-colors duration-100 active:scale-[0.98] border-[var(--border)] bg-[var(--bg-surface)] text-[var(--fg-muted)] hover:border-[var(--border-hover)] hover:text-[var(--fg)]"
+            >
+              <span
+                class="text-[13px] font-medium"
+              >
+                Clean
+              </span>
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down h-3 w-3 text-[var(--fg-subtle)] transition-transform duration-100"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </button>
+            <button
+              class="flex items-center rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-2 py-1 text-[var(--fg-muted)] transition-colors duration-100 hover:border-[var(--border-hover)] hover:text-[var(--fg)] active:scale-[0.95] disabled:cursor-not-allowed disabled:opacity-40"
+              title="Copy to clipboard"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-copy h-3.5 w-3.5"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  height="14"
+                  rx="2"
+                  ry="2"
+                  width="14"
+                  x="8"
+                  y="8"
+                />
+                <path
+                  d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+                />
+              </svg>
+            </button>
+            <button
+              class="flex items-center gap-1.5 rounded-lg bg-[var(--accent)] px-2.5 py-1 text-[var(--accent-fg)] transition-colors duration-100 hover:bg-[var(--accent-hover)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-share h-3.5 w-3.5"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2v13"
+                />
+                <path
+                  d="m16 6-4-4-4 4"
+                />
+                <path
+                  d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                />
+              </svg>
+              <span
+                class="text-[13px] font-medium"
+              >
+                Export
+              </span>
+            </button>
+          </div>
+          <div
+            class="flex-1 overflow-auto px-5 py-4"
+          >
+            <pre
+              class="whitespace-pre-wrap break-words font-mono text-[13px] leading-relaxed text-[var(--fg-muted)]"
+            >
+              # Mock markdown
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div
+    class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[var(--bg)]"
+  >
+    <div
+      class="pointer-events-none absolute inset-0"
+      style="background: radial-gradient(60% 40% at 50% -5%, rgba(110, 231, 183, 0.06) 0%, transparent 70%);"
+    />
+    <div
+      class="relative w-full max-w-[440px] px-6"
+    >
+      <div
+        style="opacity: 0.025416342468815856; transform: translateX(23.39000778074842px);"
+      >
+        <div
+          class="flex flex-col items-center text-center"
+        >
+          <div
+            class="mb-2 font-[family-name:var(--font-heading)] text-[72px] font-bold leading-none tracking-tighter text-[var(--fg)]"
+            style="opacity: 0.012399566141539253; transform: translateY(11.851205206301529px);"
+          >
+            ACE
+          </div>
+          <div
+            class="mb-8 font-[family-name:var(--font-mono)] text-[11px] uppercase tracking-[0.2em] text-[var(--fg-subtle)]"
+            style="opacity: 0;"
+          >
+            Agent Conversation Exporter
+          </div>
+          <p
+            class="mb-10 max-w-[320px] text-[14px] leading-relaxed text-[var(--fg-muted)]"
+            style="opacity: 0; transform: translateY(8px);"
+          >
+            Export your Codex CLI and Desktop conversations as clean, structured Markdown. Ready to share, archive, or publish.
+          </p>
+          <button
+            class="flex items-center gap-2 rounded-xl bg-[var(--accent)] px-6 py-2.5 text-[var(--accent-fg)] transition-colors hover:bg-[var(--accent-hover)] active:scale-[0.98]"
+            style="opacity: 0; transform: translateY(6px);"
+          >
+            <span
+              class="text-[13px] font-semibold"
+            >
+              Get started
+            </span>
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right h-3.5 w-3.5"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="absolute bottom-10"
+      style="opacity: 0;"
+    >
+      <div
+        class="flex items-center gap-2"
+      >
+        <div
+          class="h-1.5 rounded-full transition-colors duration-300 bg-[var(--accent)]"
+          style="width: 0.4218041352578439px;"
+        />
+        <div
+          class="h-1.5 rounded-full transition-colors duration-300 bg-[var(--border-hover)]"
+          style="width: 0.12654124057735316px;"
+        />
+        <div
+          class="h-1.5 rounded-full transition-colors duration-300 bg-[var(--border-hover)]"
+          style="width: 0.12654124057735316px;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AppShell responsive snapshots > renders brutalist layout at width 1440 1`] = `
+<div
+  class="flex h-screen flex-col bg-[var(--bg)] text-[var(--fg)]"
+>
+  <main
+    class="min-h-0 flex-1 p-2"
+  >
+    <div
+      class="flex h-full"
+    >
+      <div
+        class="h-full min-w-[260px]"
+        style="width: 320px;"
+      >
+        <div
+          class="flex h-full flex-col bg-[var(--bg-raised)]"
+        >
+          <div
+            class="flex flex-shrink-0 items-center gap-1 px-3 py-2"
+          >
+            <div
+              class="relative min-w-0 flex-1"
+            >
+              <span
+                class="block text-[13px] text-[var(--fg-muted)] transition-opacity duration-150 opacity-100"
+              >
+                Threads
+              </span>
+              <div
+                class="absolute inset-y-0 right-0 flex items-center overflow-hidden transition-[width] duration-200 ease-out w-0"
+              >
+                <input
+                  class="h-6 w-full min-w-0 bg-transparent text-[13px] text-[var(--fg)] placeholder-[var(--fg-subtle)] outline-none"
+                  placeholder="Search..."
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-shrink-0 items-center gap-0.5"
+            >
+              <button
+                class="rounded-md p-1 transition-colors active:scale-[0.95] text-[var(--fg-subtle)] hover:bg-[var(--bg-hover)] hover:text-[var(--fg)]"
+                title="Search sessions"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-search h-3.5 w-3.5"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m21 21-4.34-4.34"
+                  />
+                  <circle
+                    cx="11"
+                    cy="11"
+                    r="8"
+                  />
+                </svg>
+              </button>
+              <button
+                class="rounded-md p-1 transition-colors active:scale-[0.95] text-[var(--fg-subtle)] hover:bg-[var(--bg-hover)] hover:text-[var(--fg)]"
+                title="Select sessions"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-list-checks h-3.5 w-3.5"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13 5h8"
+                  />
+                  <path
+                    d="M13 12h8"
+                  />
+                  <path
+                    d="M13 19h8"
+                  />
+                  <path
+                    d="m3 17 2 2 4-4"
+                  />
+                  <path
+                    d="m3 7 2 2 4-4"
+                  />
+                </svg>
+              </button>
+              <button
+                class="relative rounded-md p-1 transition-colors duration-100 active:scale-[0.95] text-[var(--fg-subtle)] hover:bg-[var(--bg-hover)] hover:text-[var(--fg)]"
+                title="Filter & actions"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-sliders-horizontal h-3.5 w-3.5"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 5H3"
+                  />
+                  <path
+                    d="M12 19H3"
+                  />
+                  <path
+                    d="M14 3v4"
+                  />
+                  <path
+                    d="M16 17v4"
+                  />
+                  <path
+                    d="M21 12h-9"
+                  />
+                  <path
+                    d="M21 19h-5"
+                  />
+                  <path
+                    d="M21 5h-7"
+                  />
+                  <path
+                    d="M8 10v4"
+                  />
+                  <path
+                    d="M8 12H3"
+                  />
+                </svg>
+                <span
+                  class="absolute -right-0.5 -top-0.5 h-[5px] w-[5px] rounded-full bg-[var(--accent)]"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="min-h-0 flex-1"
+          >
+            <div
+              class="h-full overflow-auto"
+              style=""
+            >
+              <div
+                class="relative"
+                style="height: 0px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-orientation="vertical"
+        class="group flex w-2 cursor-col-resize items-center justify-center"
+        role="separator"
+      >
+        <div
+          class="h-full w-px bg-[var(--border)] transition-colors duration-150 group-hover:w-0.5 group-hover:bg-[var(--accent)]"
+        />
+      </div>
+      <div
+        class="min-w-0 flex-1"
+        style="opacity: 0;"
+      >
+        <div
+          class="flex h-full flex-col overflow-hidden rounded-[var(--radius-lg)] bg-[var(--bg-raised)]"
+        >
+          <div
+            class="flex flex-shrink-0 items-center gap-3 border-b border-[var(--border)] px-4 py-2"
+          >
+            <div
+              class="min-w-0 flex-1"
+            >
+              <div
+                class="flex items-center gap-2"
+                style=""
+              >
+                <span
+                  class="truncate text-[13px] font-medium text-[var(--fg)]"
+                >
+                  Analyze TTT-E2E paper and prepare report
+                </span>
+                <span
+                  class="flex-shrink-0 text-[13px] text-[var(--fg-subtle)]"
+                >
+                  Reproducing-TTT-E2E
+                </span>
+              </div>
+            </div>
+            <button
+              class="flex items-center gap-1.5 rounded-lg border px-2.5 py-1 transition-colors duration-100 active:scale-[0.98] border-[var(--border)] bg-[var(--bg-surface)] text-[var(--fg-muted)] hover:border-[var(--border-hover)] hover:text-[var(--fg)]"
+            >
+              <span
+                class="text-[13px] font-medium"
+              >
+                Raw
+              </span>
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down h-3 w-3 text-[var(--fg-subtle)] transition-transform duration-100"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </button>
+            <button
+              class="flex items-center gap-1.5 rounded-lg border px-2.5 py-1 transition-colors duration-100 active:scale-[0.98] border-[var(--border)] bg-[var(--bg-surface)] text-[var(--fg-muted)] hover:border-[var(--border-hover)] hover:text-[var(--fg)]"
+            >
+              <span
+                class="text-[13px] font-medium"
+              >
+                Clean
+              </span>
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-chevron-down h-3 w-3 text-[var(--fg-subtle)] transition-transform duration-100"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </button>
+            <button
+              class="flex items-center rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-2 py-1 text-[var(--fg-muted)] transition-colors duration-100 hover:border-[var(--border-hover)] hover:text-[var(--fg)] active:scale-[0.95] disabled:cursor-not-allowed disabled:opacity-40"
+              title="Copy to clipboard"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-copy h-3.5 w-3.5"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  height="14"
+                  rx="2"
+                  ry="2"
+                  width="14"
+                  x="8"
+                  y="8"
+                />
+                <path
+                  d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+                />
+              </svg>
+            </button>
+            <button
+              class="flex items-center gap-1.5 rounded-lg bg-[var(--accent)] px-2.5 py-1 text-[var(--accent-fg)] transition-colors duration-100 hover:bg-[var(--accent-hover)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40"
+            >
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-share h-3.5 w-3.5"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2v13"
+                />
+                <path
+                  d="m16 6-4-4-4 4"
+                />
+                <path
+                  d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+                />
+              </svg>
+              <span
+                class="text-[13px] font-medium"
+              >
+                Export
+              </span>
+            </button>
+          </div>
+          <div
+            class="flex-1 overflow-auto px-5 py-4"
+          >
+            <pre
+              class="whitespace-pre-wrap break-words font-mono text-[13px] leading-relaxed text-[var(--fg-muted)]"
+            >
+              # Mock markdown
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div
+    class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[var(--bg)]"
+  >
+    <div
+      class="pointer-events-none absolute inset-0"
+      style="background: radial-gradient(60% 40% at 50% -5%, rgba(110, 231, 183, 0.06) 0%, transparent 70%);"
+    />
+    <div
+      class="relative w-full max-w-[440px] px-6"
+    >
+      <div
+        style="opacity: 0; transform: translateX(24px);"
+      >
+        <div
+          class="flex flex-col items-center text-center"
+        >
+          <div
+            class="mb-2 font-[family-name:var(--font-heading)] text-[72px] font-bold leading-none tracking-tighter text-[var(--fg)]"
+            style="opacity: 0; transform: translateY(12px);"
+          >
+            ACE
+          </div>
+          <div
+            class="mb-8 font-[family-name:var(--font-mono)] text-[11px] uppercase tracking-[0.2em] text-[var(--fg-subtle)]"
+            style="opacity: 0;"
+          >
+            Agent Conversation Exporter
+          </div>
+          <p
+            class="mb-10 max-w-[320px] text-[14px] leading-relaxed text-[var(--fg-muted)]"
+            style="opacity: 0; transform: translateY(8px);"
+          >
+            Export your Codex CLI and Desktop conversations as clean, structured Markdown. Ready to share, archive, or publish.
+          </p>
+          <button
+            class="flex items-center gap-2 rounded-xl bg-[var(--accent)] px-6 py-2.5 text-[var(--accent-fg)] transition-colors hover:bg-[var(--accent-hover)] active:scale-[0.98]"
+            style="opacity: 0; transform: translateY(6px);"
+          >
+            <span
+              class="text-[13px] font-semibold"
+            >
+              Get started
+            </span>
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right h-3.5 w-3.5"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="absolute bottom-10"
+      style="opacity: 0;"
+    >
+      <div
+        class="flex items-center gap-2"
+      >
+        <div
+          class="h-1.5 rounded-full transition-colors duration-300 bg-[var(--accent)]"
+        />
+        <div
+          class="h-1.5 rounded-full transition-colors duration-300 bg-[var(--border-hover)]"
+        />
+        <div
+          class="h-1.5 rounded-full transition-colors duration-300 bg-[var(--border-hover)]"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
