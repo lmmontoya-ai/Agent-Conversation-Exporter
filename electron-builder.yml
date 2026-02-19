@@ -1,5 +1,6 @@
 appId: com.lumontoya.codex-export
 productName: "ACE: Agent Conversation Exporter"
+copyright: "Copyright © 2026 Luis Miguel Montoya Henao"
 directories:
   buildResources: build
 files:

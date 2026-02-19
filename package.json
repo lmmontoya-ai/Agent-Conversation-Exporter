@@ -1,10 +1,18 @@
 {
   "name": "codex-export",
   "version": "1.0.0",
-  "description": "Codex chat exporter desktop app with brutalist UI",
+  "description": "Export Codex Desktop/CLI conversations to Markdown",
   "main": "./out/main/index.js",
-  "author": "lumontoya",
+  "author": "lmmontoya-ai",
+  "license": "MIT",
   "homepage": "https://github.com/lmmontoya-ai/Agent-Conversation-Exporter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmmontoya-ai/Agent-Conversation-Exporter"
+  },
+  "bugs": {
+    "url": "https://github.com/lmmontoya-ai/Agent-Conversation-Exporter/issues"
+  },
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint --cache .",
