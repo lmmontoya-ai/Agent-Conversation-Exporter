@@ -5,6 +5,8 @@
 
 A macOS-first Electron app that exports Codex Desktop/CLI conversations to clean, structured Markdown. Ready to share, archive, or publish.
 
+![ACE demo](public/ace-demo.gif)
+
 ## Installation
 
 > **Note:** ACE is not notarized with Apple. macOS will block it on first launch.
