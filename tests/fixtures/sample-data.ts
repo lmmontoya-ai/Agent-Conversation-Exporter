@@ -8,7 +8,8 @@ export const sampleSettings: AppSettings = {
   theme: 'brutalist',
   paneWidths: { left: 320, right: 340 },
   density: 'comfortable',
-  reducedMotion: false
+  reducedMotion: true,
+  hasCompletedOnboarding: true
 }
 
 export const sampleSessions: SessionSummary[] = [
@@ -22,7 +23,8 @@ export const sampleSessions: SessionSummary[] = [
     messageCount: 12,
     title: 'Analyze TTT-E2E paper and prepare report',
     partial: false,
-    archived: false
+    archived: false,
+    inWorkspace: true
   },
   {
     sessionId: '019c4d7e-88c7-72f1-b3cc-790e6b17ed88',
@@ -34,6 +36,7 @@ export const sampleSessions: SessionSummary[] = [
     messageCount: 22,
     title: 'Code review against main',
     partial: false,
-    archived: true
+    archived: true,
+    inWorkspace: false
   }
 ]

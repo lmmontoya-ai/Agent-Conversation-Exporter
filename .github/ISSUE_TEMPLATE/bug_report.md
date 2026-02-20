@@ -1,12 +1,29 @@
 ---
 name: Bug report
-about: Something isn't working
+about: Report a reproducible problem
+labels: bug
 ---
 
-**What happened?**
+## Description
 
-**Steps to reproduce**
+What happened?
 
-**Expected behavior**
+## Reproduction
 
-**ACE version / macOS version**
+1. 
+2. 
+3. 
+
+## Expected behavior
+
+What should have happened?
+
+## Environment
+
+- ACE version:
+- OS version:
+- Source type: (Codex Desktop / CLI)
+
+## Logs / Screenshots
+
+Paste logs or screenshots if available.

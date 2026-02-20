@@ -1,11 +1,40 @@
 # Contributing
 
-Feature suggestions and bug reports are welcome. PRs must be linked to an open issue.
+Thanks for contributing to ACE.
 
-## How to contribute
+## Development setup
 
-1. **Open an issue first** — use the Feature Request or Bug Report template
-2. **Wait for feedback** — the issue will be discussed before any PR is accepted
-3. **Open a PR** — reference the issue with `Closes #123` in the PR description
+```bash
+npm install
+npm run dev
+```
 
-PRs without a linked issue will not be reviewed.
+## Before opening a PR
+
+Run the same checks as CI:
+
+```bash
+npm run lint
+npm run typecheck
+npm run test:ci
+npm run build
+```
+
+## Workflow
+
+1. Open an issue first for non-trivial changes.
+2. Keep PRs focused and small.
+3. Link the issue in the PR description (`Closes #123`).
+4. Include screenshots/recordings for UI changes.
+
+## Coding expectations
+
+- Prefer clear and explicit code over clever abstractions.
+- Keep behavior changes covered by tests.
+- Do not introduce unrelated refactors in the same PR.
+
+## Releases
+
+Maintainers create releases by pushing a `v*` tag.
+
+See `docs/releasing.md` for details.

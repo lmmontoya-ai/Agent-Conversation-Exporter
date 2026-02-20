@@ -20,7 +20,7 @@ beforeEach(() => {
   Object.defineProperty(window, 'matchMedia', {
     writable: true,
     value: vi.fn().mockImplementation((query: string) => ({
-      matches: query.includes('reduce') ? false : true,
+      matches: query.includes('reduce'),
       media: query,
       onchange: null,
       addEventListener: vi.fn(),
@@ -55,7 +55,8 @@ beforeEach(() => {
     isLoading: false,
     isExporting: false,
     searchQuery: '',
-    sourceFilter: 'all',
+    sourceFilters: new Set(['desktop']),
+    includeRemoved: false,
     statusNotice: null,
     errorNotice: null,
     mode: 'clean'

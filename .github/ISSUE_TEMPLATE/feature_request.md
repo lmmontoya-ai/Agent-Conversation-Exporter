@@ -1,10 +1,21 @@
 ---
 name: Feature request
-about: Suggest an idea or improvement
+about: Suggest an improvement
+labels: enhancement
 ---
 
-**What problem does this solve?**
+## Problem statement
 
-**Describe the feature**
+What user problem does this solve?
 
-**Alternatives considered**
+## Proposed solution
+
+Describe the expected behavior and UX.
+
+## Alternatives considered
+
+What alternatives did you consider?
+
+## Additional context
+
+Links, mockups, or examples.
