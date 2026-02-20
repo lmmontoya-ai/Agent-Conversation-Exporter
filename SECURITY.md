@@ -11,12 +11,10 @@
 
 Please do not open public issues for security vulnerabilities.
 
-Email: `security@lmmontoya.ai`
+Email: `luismmonh@gmail.com`
 
 Include:
 - affected version
 - reproduction steps
 - impact assessment
 - any proof-of-concept
-
-You will receive an acknowledgment within 72 hours.

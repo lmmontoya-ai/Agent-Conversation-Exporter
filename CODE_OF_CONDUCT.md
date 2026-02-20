@@ -22,6 +22,6 @@ Project maintainers are responsible for clarifying and enforcing these standards
 
 ## Reporting
 
-Report violations to `conduct@lmmontoya.ai`.
+Report violations to `luismmonh@gmail.com`.
 
 All reports will be reviewed and investigated promptly and fairly.
